@@ -1,0 +1,8 @@
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\bin\Debug\Postpony.Api.Sdk.Test.pdb
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\bin\Debug\Postpony.Api.Sdk.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\obj\Debug\Postpony.Api.Sdk.Test.csprojResolveAssemblyReference.cache
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\obj\Debug\Postpony.Api.Sdk.Test.pdb
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\bin\Debug\Postpony.Api.Sdk.pdb
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\bin\Debug\Postpony.Api.Sdk.Test.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk.Test\obj\Debug\Postpony.Api.Sdk.Test.dll

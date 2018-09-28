@@ -1,0 +1,8 @@
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Release\Postpony.Api.Sdk.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Release\Postpony.Api.Sdk.pdb
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Release\Newtonsoft.Json.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Release\RestSharp.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Release\Newtonsoft.Json.xml
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\obj\Release\Postpony.Api.Sdk.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\obj\Release\Postpony.Api.Sdk.pdb
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\obj\Release\Postpony.Api.Sdk.csprojResolveAssemblyReference.cache

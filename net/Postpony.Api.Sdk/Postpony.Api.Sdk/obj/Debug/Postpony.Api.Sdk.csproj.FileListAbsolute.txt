@@ -1,0 +1,14 @@
+C:\work\postpony-dotnet\API\Postpony.Web.Api\Postpony.Api.Sdk\bin\Debug\Postpony.Api.Sdk.dll
+C:\work\postpony-dotnet\API\Postpony.Web.Api\Postpony.Api.Sdk\bin\Debug\Postpony.Api.Sdk.pdb
+C:\work\postpony-dotnet\API\Postpony.Web.Api\Postpony.Api.Sdk\obj\Debug\Postpony.Api.Sdk.dll
+C:\work\postpony-dotnet\API\Postpony.Web.Api\Postpony.Api.Sdk\obj\Debug\Postpony.Api.Sdk.pdb
+C:\work\postpony-dotnet\API\Postpony.Web.Api\Postpony.Api.Sdk\bin\Debug\Newtonsoft.Json.dll
+C:\work\postpony-dotnet\API\Postpony.Web.Api\Postpony.Api.Sdk\bin\Debug\RestSharp.dll
+C:\work\postpony-dotnet\API\Postpony.Web.Api\Postpony.Api.Sdk\bin\Debug\Newtonsoft.Json.xml
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Debug\Postpony.Api.Sdk.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Debug\Postpony.Api.Sdk.pdb
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Debug\Newtonsoft.Json.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Debug\RestSharp.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\bin\Debug\Newtonsoft.Json.xml
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\obj\Debug\Postpony.Api.Sdk.dll
+C:\work\postpony-dotnet\API\Postpony.Api.Sdk\Postpony.Api.Sdk\obj\Debug\Postpony.Api.Sdk.pdb

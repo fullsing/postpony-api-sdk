@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postpony.Api.Sdk.Test", "Postpony.Api.Sdk.Test\Postpony.Api.Sdk.Test.csproj", "{1DA9EEE8-257F-454B-B954-AD7BA5FAB9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postpony.Api.Sdk", "Postpony.Api.Sdk\Postpony.Api.Sdk.csproj", "{BCC79764-DE41-4EE5-86C3-BEBBF71D1235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DA9EEE8-257F-454B-B954-AD7BA5FAB9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA9EEE8-257F-454B-B954-AD7BA5FAB9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA9EEE8-257F-454B-B954-AD7BA5FAB9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA9EEE8-257F-454B-B954-AD7BA5FAB9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC79764-DE41-4EE5-86C3-BEBBF71D1235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC79764-DE41-4EE5-86C3-BEBBF71D1235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC79764-DE41-4EE5-86C3-BEBBF71D1235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC79764-DE41-4EE5-86C3-BEBBF71D1235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

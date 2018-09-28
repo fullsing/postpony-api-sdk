@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCC79764-DE41-4EE5-86C3-BEBBF71D1235}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Postpony.Api.Sdk</RootNamespace>
+    <AssemblyName>Postpony.Api.Sdk</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\..\..\Lib\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\AddressInfo.cs" />
+    <Compile Include="Model\ApiCredentialInfo.cs" />
+    <Compile Include="Model\BatchDownloadRequest.cs" />
+    <Compile Include="Model\BatchDownLoadRespose.cs" />
+    <Compile Include="Common\Client.cs" />
+    <Compile Include="Common\ClientConfiguration.cs" />
+    <Compile Include="Common\ClientManager.cs" />
+    <Compile Include="Model\ClientRequestBase.cs" />
+    <Compile Include="Model\CustomsItem.cs" />
+    <Compile Include="Model\DownloadRequest.cs" />
+    <Compile Include="Model\DownLoadRespose.cs" />
+    <Compile Include="Model\ElectronicExportType.cs" />
+    <Compile Include="Common\EnumDescriptionAttribute.cs" />
+    <Compile Include="Common\Error.cs" />
+    <Compile Include="Common\HttpException.cs" />
+    <Compile Include="Common\IResource.cs" />
+    <Compile Include="Enum\LabelFormatEnum.cs" />
+    <Compile Include="Model\LabelIdRequest.cs" />
+    <Compile Include="Model\LabelIdRespose.cs" />
+    <Compile Include="Enum\LabelSize.cs" />
+    <Compile Include="Model\LabelInfoDetail.cs" />
+    <Compile Include="Model\PackageItemInfo.cs" />
+    <Compile Include="Model\ShippingDetailRequest.cs" />
+    <Compile Include="Model\ShippingDetailResponse.cs" />
+    <Compile Include="PostponyService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\RateRequest.cs" />
+    <Compile Include="Model\RateResponse.cs" />
+    <Compile Include="Model\RateResult.cs" />
+    <Compile Include="Model\RateResultDetail.cs" />
+    <Compile Include="Common\Request.cs" />
+    <Compile Include="Common\Resource.cs" />
+    <Compile Include="Model\ResponseBase.cs" />
+    <Compile Include="Common\Security.cs" />
+    <Compile Include="Enum\ShippingClassEnum.cs" />
+    <Compile Include="Model\ShipRequest.cs" />
+    <Compile Include="Model\ShipRequestDetail.cs" />
+    <Compile Include="Model\ShipResponse.cs" />
+    <Compile Include="Enum\ShipTypeEnum.cs" />
+    <Compile Include="Enum\SignatureType.cs" />
+    <Compile Include="Model\TrackingDetail.cs" />
+    <Compile Include="Model\TrackingRequest.cs" />
+    <Compile Include="Model\TrackingResponse.cs" />
+    <Compile Include="Model\WaybillInformation.cs" />
+    <Compile Include="Common\XmlUtilHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
